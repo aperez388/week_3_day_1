@@ -39,3 +39,17 @@ print(name + " liked to hum the song " + song + " while coding. It was so annoyi
 print("Still, " + name + " was the best coder on the team and could write " + str(number) + " lines of code every day.")
 # Maybe [song] was [name]'s secret power?
 print("Maybe " + song + " was " + name + "'s secret power?")
+
+
+number1 = 100
+number2 = 200
+number3 = 300
+number4 = 400
+number5 = 500
+# put all of these into a sentence
+# print(str(number) + "," + str(number1) + "," + str(number2) + "," + str(number3) + "," + str(number4) + "," + str(number5) + ".")
+#f strings
+print(f"{number}.{number1},{number2},{number3},{number4},{number5}.")
+
+
+#################################################################################
