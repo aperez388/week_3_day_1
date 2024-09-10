@@ -8,3 +8,4 @@
 
 # # 1. Building a Basic Calculator
 # # 2. Mad Libs Game
+x = 20
