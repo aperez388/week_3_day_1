@@ -209,3 +209,13 @@ print(round(num1))
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
+
+
+####################################################################
+numbe1 = int(input("Enter a number: "))
+numbe2 = int(input("Enter another number: "))
+print(numbe1+numbe2)
+print(numbe1-numbe2)
+print(numbe1*numbe2)
+print(numbe1%numbe2)
+print(numbe1/number2)
