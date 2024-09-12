@@ -106,3 +106,106 @@ print(f"{number}.{number1},{number2},{number3},{number4},{number5}.")
 # email_address
 # percentage
 # illinois
+
+
+
+###########################################################################################
+
+
+# # **Working with** **numbers** **bold text**
+# We'll learn about the following topics:
+# 1. Types of Numbers in Python
+# 2. Basic Arithmetic
+# 3. Differences between classic division and floor division
+
+
+# Python has various "types" of numbers (numeric literals).
+# 1. We'll mainly focus on integers and floating point numbers.
+# Integers are just whole numbers, positive or negative. For example: 2 and -2 are examples of integers.
+# 2. Floating point numbers in Python are notable because they have a decimal point in them, or use an exponential (e) to define the number. For example 2.0 and -2.1 are examples of floating point numbers. 4E2 (4 times 10 to the power of 2) is also an example of a floating point number in Python.
+
+
+##########################################################################################
+# #addition
+print(2+1)
+# #multiplication
+print(2*2)
+# #division
+print(3/2)
+# #modulo
+print(7%4) # remainder of two numbers divided
+
+# #powers
+print(2**3)
+# #get the max and min of a number
+print(max(1,2)) # max number get the largest number
+print(min(1,2)) # min number get the smallest number
+# #round a number
+print(round(3.4))
+# # absolute value
+print(abs(-3)) # absolute value of a number
+# absolute value is the distance from ) to a number
+# it's always positive
+# # order of operations
+print(2 + 10 * 10 + 3)
+# #to do more you need to import special math libraries from python
+from math import *    
+# #this goes out and grabs some different math functions we can use
+# #floor method
+print(floor(3.7)) # floor method rounds down
+# #ceil method
+print(ceil(3.7)) # ceil method rounds up
+# #sqrt method
+print(sqrt(36)) # sqrt method finds the square root of a number
+
+# add from math import * at the beginning of a file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+##########################################################################################
+# So what have we learned? We learned some of the basics of numbers in Python. We also learned how to do arithmetic and use Python as a basic calculator. We then wrapped it up with learning about Variable Assignment in Python.
+# # **Getting Input from users**
+# #how do we get input from users?
+# input("what is your name?")
+name = input("What is your name?")
+print("Hello " + name + ".")
+# # basic math calculator
+# #ask the user for 2 numbers
+num1 = int(input("enter a number: "))
+num2 = int(input("enter another number: "))
+# # print out a statement where you:
+# # add them together
+print(num1 + num2)
+# #multiply
+print(num1 * num2)
+# # find the max number
+print(max(num1,num2))
+# # find the remainder of the numbers
+print(num1%num2)
+# #round one number
+print(round(num1))
+
+
+
+
+
+
+
+
+##########################################################################################
+# # mad libs game
+# print("Roses are {color}")
+# print("{plural noun} are blue")
+# print("I love {celebrity}")
+# # On to codehs.com
