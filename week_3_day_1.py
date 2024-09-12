@@ -53,3 +53,56 @@ print(f"{number}.{number1},{number2},{number3},{number4},{number5}.")
 
 
 #################################################################################
+
+
+
+
+
+##########################################################################
+# The names you use when creating these labels need to follow a few rules:
+# 1. Names can not start with a number.
+# 2. There can be no spaces in the name, use _ instead.
+# 3. Can't use any of these symbols :'"/?|\()!@#$%^&*~`-+=
+# 4. It's considered best practice (PEP8) that names are lowercase.
+# 5. Avoid using the characters "l" (lowercase letter el), "O" (uppercase letter oh),
+# or "I" (uppercase letter eye) as single character variable names.
+# 6. Avoid using words that have special meaning in Python like "list" or "str"
+
+
+# Here are some exercises to practice the rules:
+
+
+# Correcting Invalid Names: Below are some invalid names. Correct them according to the rules:
+
+# first_name
+# last_name
+# email_address
+# percent
+# variable_name
+# zero
+# list_of_names
+# Creating Valid Names: Create valid names for the following instructions:
+
+
+
+# The first name of a person
+# The last name of a person
+# The email address of a person
+# The percentage of marks obtained by a student
+# A variable to store the number of items in a shopping cart
+
+
+
+
+# Identify Valid and Invalid Names: Identify which of the following names are valid or invalid according to the rules:
+
+
+# first_name
+# lastName
+# email_address
+# percentage
+# variable_name
+# first_variable
+# email_address
+# percentage
+# illinois
